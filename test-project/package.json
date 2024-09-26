@@ -1,0 +1,21 @@
+{
+  "name": "airdrop-earner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "rm -rf ./dist && npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.3.1",
+    "selenium-webdriver": "^4.19.0",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.22"
+  }
+}
